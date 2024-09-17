@@ -1,7 +1,7 @@
 export const markup = `
- <div class='lady lady_1'><img src='../assets/img/lady1.png'></div>
-  <div class='lady lady_2'> <picture><source srcset='../assets/img/lady2.png' media="(min-width: 850px)" />
-    <img src="../assets/img/lady2-mob.png" alt="MDN" />
+ <div class='lady lady_1'><img src='/popovych_ivan/assets/img/lady1.png'></div>
+  <div class='lady lady_2'> <picture><source srcset='/popovych_ivan/assets/img/lady2.png' media="(min-width: 850px)" />
+    <img src="/popovych_ivan/assets/img/lady2-mob.png" alt="MDN" />
   </picture></div>
 <div class='s1-container'>
  

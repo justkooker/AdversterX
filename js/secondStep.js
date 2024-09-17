@@ -7,19 +7,19 @@ export const markup = `
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <div class='slide'>
-              <div class='image'><img src='../assets/img/slider-lady1.png' alt='Lady'></div>
+              <div class='image'><img src='/popovych_ivan/assets/img/slider-lady1.png' alt='Lady'></div>
              <p class='role'>Your Neighbor</p>
               </div> 
         </div>
       <div class="swiper-slide">
          <div class='slide'>
-              <div class='image'><img src='../assets/img/slider-lady2.png' alt='Lady'></div>
+              <div class='image'><img src='/popovych_ivan/assets/img/slider-lady2.png' alt='Lady'></div>
               <p class='role'>Step-Sister</p>
          </div>
         </div>
       <div class="swiper-slide">
         <div class='slide'>
-              <div class='image'><img src='../assets/img/slider-lady3.png' alt='Lady'></div>
+              <div class='image'><img src='/popovych_ivan/assets/img/slider-lady3.png' alt='Lady'></div>
               <p class='role'>Famous Celebrity</p>
         </div>
         </div>

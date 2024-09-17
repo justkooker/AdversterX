@@ -1,8 +1,8 @@
 export const markup = `
 <div class='s3-container'>
-  <div class='lady lady_2'><img src='../assets/img/lady3.png' alt='lady3'></div>
-  <div class='lady lady_1'> <picture><source srcset='../assets/img/lady4.png' media="(min-width: 850px)" />
-    <img src="../assets/img/lady4-mob.png" alt="lady4" />
+  <div class='lady lady_2'><img src='/popovych_ivan/assets/img/lady3.png' alt='lady3'></div>
+  <div class='lady lady_1'> <picture><source srcset='/popovych_ivan/assets/img/lady4.png' media="(min-width: 850px)" />
+    <img src="/popovych_ivan/assets/img/lady4-mob.png" alt="lady4" />
   </picture></div>
       <div class='s3-container__content'>
           <p class='text text_colored'>Warning</p>

@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelector("#app").innerHTML = `
         <div class='layout'>
           <div class='sound'>
-            <img width='100%' height='100%' src='../assets/svg/sound.svg'>
+            <img width='100%' height='100%' src='/popovych_ivan/assets/svg/sound.svg'>
           </div>
           ${firstStepMarkup}
         </div>
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelector("#app").innerHTML = `
         <div class='layout'>
         <div class='sound'>
-          <img width='100%' height='100%' src='../assets/svg/sound.svg'>
+          <img width='100%' height='100%' src='/popovych_ivan/assets/svg/sound.svg'>
         </div>
         ${secondStepMarkup}
           </div>
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
       document.querySelector("#app").innerHTML = `
         <div class='layout'>
         <div class='sound'>
-          <img width='100%' height='100%' src='../assets/svg/sound.svg'>
+          <img width='100%' height='100%' src='/popovych_ivan/assets/svg/sound.svg'>
         </div>
         ${thirdStepMarkup}
           </div>
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     const step2Button = document.querySelector("#step2-btn");
     if (step2Button) {
-        step2Button.addEventListener("click", gotoStep3);
+      step2Button.addEventListener("click", gotoStep3);
     }
     initializeSwiper();
   };
@@ -87,9 +87,9 @@ document.addEventListener("DOMContentLoaded", () => {
     state.step = 2;
     render();
   };
-  const gotoStep3 =() => {
+  const gotoStep3 = () => {
     state.step = 3;
     render();
-  }
+  };
   render();
 });

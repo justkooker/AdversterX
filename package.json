@@ -1,5 +1,5 @@
 {
-  "homepage": "https://justkooker.github.io/AdversterX/",
+  "homepage": "https://justkooker.github.io/popovych_ivan",
   "name": "my-project",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+   "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "sass-embedded": "^1.78.0",

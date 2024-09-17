@@ -1,7 +1,7 @@
 (function(){const e=document.createElement("link").relList;if(e&&e.supports&&e.supports("modulepreload"))return;for(const r of document.querySelectorAll('link[rel="modulepreload"]'))s(r);new MutationObserver(r=>{for(const n of r)if(n.type==="childList")for(const o of n.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&s(o)}).observe(document,{childList:!0,subtree:!0});function t(r){const n={};return r.integrity&&(n.integrity=r.integrity),r.referrerPolicy&&(n.referrerPolicy=r.referrerPolicy),r.crossOrigin==="use-credentials"?n.credentials="include":r.crossOrigin==="anonymous"?n.credentials="omit":n.credentials="same-origin",n}function s(r){if(r.ep)return;r.ep=!0;const n=t(r);fetch(r.href,n)}})();const be=`
- <div class='lady lady_1'><img src='/popovych_ivan/assets/img/lady1.png'></div>
-  <div class='lady lady_2'> <picture><source srcset='/popovych_ivan/assets/img/lady2.png' media="(min-width: 850px)" />
-    <img src="/popovych_ivan/assets/img/lady2-mob.png" alt="MDN" />
+ <div class='lady lady_1'><img src='/assets/img/lady1.png'></div>
+  <div class='lady lady_2'> <picture><source srcset='/assets/img/lady2.png' media="(min-width: 850px)" />
+    <img src="/assets/img/lady2-mob.png" alt="MDN" />
   </picture></div>
 <div class='s1-container'>
  
